@@ -1,5 +1,12 @@
 body {
     background: black;
+/*background:
+
+url(),
+linear-gradient(0deg,#000e,#000e);
+*/
+background-repeat: no-repeat;
+background-size:cover ;
 /*    background: linear-gradient(0deg, black, white);*/
 /*    background-repeat: no-repeat;*/
 
@@ -13,6 +20,8 @@ h1, h3 {
 body>div {
         font-family: monospace;
         font-size: 1.2em;
+        max-width: 700px;
+        margin:auto;
 }
 
 pre {
