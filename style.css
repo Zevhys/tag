@@ -1,0 +1,50 @@
+body {
+    background: black;
+/*    background: linear-gradient(0deg, black, white);*/
+/*    background-repeat: no-repeat;*/
+
+    color: white;
+}
+
+h1, h3 {
+        font-family: 'Ysabeau SC', sans-serif;
+}
+
+body>div {
+        font-family: monospace;
+        font-size: 1.2em;
+}
+
+body div>div {
+    display: inline-block;
+
+    margin: 1em;
+    padding: .5em;
+    border-radius: .5em;
+    background: wheat;
+    color: black;
+    max-width: 250px;
+    box-shadow:
+        4px 4px magenta,
+        /*        8px 8px magenta,*/
+        8px 8px cyan;
+}
+
+
+body div>div>span {
+    background: black;
+    /*      color: red;*/
+    color: white;
+/*    border-radius: .1em;*/
+    border-radius: 2em;
+    min-width: 2em;
+    padding: .25em;
+}
+
+body div>div>span:before {
+    content: "<";
+}
+
+body div>div>span:after {
+    content: ">";
+}
