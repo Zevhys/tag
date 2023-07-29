@@ -11,8 +11,23 @@ background-size:cover ;
 /*    background-repeat: no-repeat;*/
 
     color: white;
+    margin:0
 }
 
+center{
+    background:yellow;
+    color: black;
+    margin:0;
+    padding:0;
+    padding-bottom:1em
+    
+}
+center h1 {
+    margin:0;
+    padding:0
+    
+}
+h3{margin-left:2em}
 h1, h3 {
         font-family: 'Ysabeau SC', sans-serif;
 }
