@@ -15,8 +15,8 @@ background-size:cover ;
 }
 
 center{
-    background:yellow;
-    color: black;
+/*    background:yellow;*/
+/*    color: black;*/
     margin:0;
     padding:0;
     padding-bottom:1em
@@ -44,7 +44,8 @@ pre {
         margin: 0;
 /*        margin-top: 1em;*/
         padding: .2em;
-        background: #0ff6;
+/*        background: #0ff6;*/
+        background: #0004;
         border-radius: 4px;
 /*        display: inline;*/
 
@@ -100,6 +101,17 @@ transform: translateX(-2em) translateY(-1.5em);
     min-width: 2em;
     padding: .25em;
 }
+
+.tag-card:nth-child(odd){
+    box-shadow:
+/*        4px 4px magenta,*/
+        /*        8px 8px magenta,*/
+        4px 4px mediumvioletred;
+}
+.tag-card:nth-child(odd) span{
+        background: mediumvioletred;
+}
+
 
 body div>div>span:before {
     content: "<";
